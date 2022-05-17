@@ -82,7 +82,7 @@ body{
     margin: 0%;
 }
 #mid img{
-    width: 500px;
+    width: 860%;
 }
 .text{
     display: flex;
@@ -163,13 +163,43 @@ body{
 }
 .fa-solid, .fas {
     font-family: "Font Awesome 6 Free";
-    font-weight: 900;
+    font-weight: 900px;
     font-size: 30px;
     margin-left: 30px;
     color: var(--textcolor);
 }
+#projects{
+    display: flex;
+    background-color: var(--background-color);
+    height: auto;
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.project-links{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.project-links img{
+    width: 249px;
+    margin: 70px;
+}
+.projects-header{
+    font-family: system-ui;
+    font-weight: 400;
+    font-size: xxx-large;
+    color: var(--textcolor);
+    align-self: baseline;
+    justify-content: center;
+    display: flex;
+}
 
-@media only screen and (max-width: 768px){
+
+@media only screen and (max-width: 768px) {
     .toggle-button{
         display: flex;
     }
@@ -193,8 +223,5 @@ body{
     }
     .navbar-links.active{
         display: flex;
-    }
-    .introduction{
-        font-size: medium;
     }
 }
