@@ -33,14 +33,13 @@ h1 {
     font-size: xxx-large;
 }
 .conteiner{
-    border : 2px , solid , var(--textcolor);
-    width: 40%;
+    border: 2px , solid , var(--textcolor);
     min-width: 480px;
-    position: absolute;
-    transform: translate(-50%,-50%);
-    top: 50%;
-    left: 50%;
-    padding: 30px 40px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin-top: 50px;
 }
 
 #newtask{
@@ -90,18 +89,17 @@ h1 {
 }
 
 #tasks{
-    background-color:  var(--textcolor);
+    background-color: var(--textcolor);
     padding: 30px 20px;
     margin-top: 50px;
     border-radius: 10px;
-    box-shadow:  0 15px 30px rgba(0, 0, 0, 0.4);
-    width: 100%;
+    box-shadow: 0 15px 30px rgb(0 0 0 / 40%);
+    width: 416.5px;
     position: relative;
 }
 
 .task{
     background-color:  var(--textcolor);
-    height: 50px;
     padding: 50px;
     margin-top: 10px;
     display: flex;
